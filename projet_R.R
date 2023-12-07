@@ -1,5 +1,5 @@
 library("ggplot2")
-library("tidyVerse")
+library("tidyverse")
 
 df <- read.csv("/home/mamitoun/Documents/Langage/data/dataset_part_2.csv")
 head(df)
