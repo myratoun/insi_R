@@ -1,4 +1,5 @@
 # Gradient 
+library("tidyverse")
 library("ggplot2")
 
 # Load our data set
