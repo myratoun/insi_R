@@ -1,0 +1,7 @@
+library(ggplot2)
+df = read.csv("/home/mamitoun/Documents/Langage/iris.csv")
+summary(df)
+boxplot(Sepal.Length~Species,data=df)
+plot(Sepal.Length~Sepal.Width,data=df)
+ggplot(df, aes(x=Sepal.Length, y=Sepal.Width)) + geom_point(color="blue",size=2)
+ggplot(df, aes(x=Sepal.Length, y=Sepal.Width, color=Sepal.Width)) + geom_point() + scale_color_continuous(low="yellow",high="red")
